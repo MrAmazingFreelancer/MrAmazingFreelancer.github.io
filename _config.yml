@@ -16,22 +16,22 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+    - text: Services
+      url : /Service
     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: 
 author: Peter
 author_bio: Hi, my name is Peter. I built this site using devlopr-jekyll :D
-author_email: "7InkCo@gmail.com"
+author_email: "7InkCo@7ink.com.au"
 author_location: Australia
 author_website_url: "https://7Ink.com.au"
 typewrite-text: You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -69,13 +69,9 @@ author_project_details:
 twitter_username:
 github_username: MrAmazingFreelancer
 instagram_username:
-# facebook_username:
 # linkedin_username:
-# behance_username:
-# medium_username:
 # telegram_username: @MrAmazingMe
-# dribbble_username:
-# flickr_username:
+# X: 
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -89,8 +85,8 @@ wakatime_username:
 mailchimp_form_url: 
 
 # contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+# getform_endpoint:
+formspree_email:MrAmazingFreelancer@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: 
