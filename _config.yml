@@ -1,37 +1,39 @@
-title: MrA
+title: 7Ink
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  7Ink is a dark neon portfolio for projects, pages, and experiments.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://pages.7ink.com.au" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
     - text: Home
-      url: /http://www.7Ink.com.au
+      url: /
     - text: About
-      url: /about
+      url: /about/
     - text: Blog
-      url: /blog
+      url: /blog/
     - text: Gallery
-      url: /gallery
+      url: /gallery/
     - text: Services
-      url : /Service
+      url: /services/
+    - text: Shop
+      url: /shop/
     - text: Contact
-      url : /contact
+      url: /contact/
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: 
-author: Peter
-author_bio: Hi, my name is Peter. I built this site using devlopr-jekyll :D
-author_email: "7InkCo@7ink.com.au"
+author_logo: profile.png
+author: MrAmazingFreelancer
+author_bio: Dark neon builds, clean pages, and sharp ideas.
+author_email: "7InkCo@gmail.com"
 author_location: Australia
-author_website_url: "https://7Ink.com.au"
-typewrite-text: You can edit this in _config.yml file
-hero_cover_img: # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author_website_url: "https://pages.7ink.com.au"
+typewrite-text: Dark neon builds for 7ink.com.au
+hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -86,7 +88,7 @@ mailchimp_form_url:
 
 # contact form - (choose formspress or getform)
 # getform_endpoint:
-formspree_email:MrAmazingFreelancer@gmail.com
+formspree_email: MrAmazingFreelancer@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: 
