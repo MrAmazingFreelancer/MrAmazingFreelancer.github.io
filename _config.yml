@@ -26,7 +26,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: apple-touch-icon.png
 author: MrAmazingFreelancer
 author_bio: Dark neon builds, clean pages, and sharp ideas.
 author_email: "7InkCo@gmail.com"
