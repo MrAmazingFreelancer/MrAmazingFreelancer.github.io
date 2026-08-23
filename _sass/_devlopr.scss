@@ -253,9 +253,19 @@ header {
 .navbar-dark .navbar-brand {
     color: #ff7a18 !important;
     text-shadow: 0 0 12px rgba(255, 122, 24, 0.3);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
+    transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+    transform: translateY(-1px);
 }
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
@@ -287,6 +297,25 @@ header {
     border-radius: 999px;
 }
 
+.jumbotron-btns .btn,
+.btn-md,
+.btn-default,
+.btn-warning {
+    padding: 0.8rem 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    border-radius: 999px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.jumbotron-btns .btn:hover,
+.btn-md:hover,
+.btn-default:hover,
+.btn-warning:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #000 !important;
@@ -303,6 +332,31 @@ header {
 .card-title {
     margin-bottom: .75rem !important;
     letter-spacing: 0.04em;
+}
+
+.main-container .card,
+#profile-card,
+.search-results {
+    position: relative;
+}
+
+.main-container .card::before,
+#profile-card::before,
+.search-results::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(255, 122, 24, 0.08), rgba(0, 229, 255, 0.07));
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.main-container .card:hover::before,
+#profile-card:hover::before,
+.search-results:hover::before {
+    opacity: 1;
 }
 
 /* Search Overlay */
@@ -563,11 +617,15 @@ header {
 .jumbotron-heading{
     font-size: 35px;
     text-shadow: 0 0 18px rgba(255, 122, 24, 0.25);
+    letter-spacing: 0.04em;
+    font-weight: 800;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
+    color: #dfeeff !important;
+    text-shadow: 0 0 14px rgba(0, 229, 255, 0.22);
 }
 
 .neon-hero {
@@ -577,10 +635,13 @@ header {
     margin: 32px 16px 24px;
     padding: 90px 24px 60px;
     background:
-        linear-gradient(180deg, rgba(8, 12, 24, 0.88), rgba(8, 12, 24, 0.7)),
+        linear-gradient(180deg, rgba(8, 12, 24, 0.84), rgba(8, 12, 24, 0.72)),
         url('/assets/img/{{site.hero_cover_img}}') center/cover no-repeat;
     border: 1px solid rgba(255, 122, 24, 0.18);
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+    box-shadow:
+        0 0 0 1px rgba(0, 229, 255, 0.08),
+        0 24px 60px rgba(0, 0, 0, 0.45),
+        0 0 28px rgba(255, 122, 24, 0.12);
 }
 
 .neon-hero::after {
@@ -589,6 +650,17 @@ header {
     inset: 0;
     background: linear-gradient(135deg, rgba(255, 122, 24, 0.12), rgba(0, 229, 255, 0.08));
     pointer-events: none;
+}
+
+.neon-hero .jumbotron-btns .btn {
+    min-width: 140px;
+    box-shadow: 0 0 22px rgba(255, 122, 24, 0.14);
+}
+
+.neon-hero .jumbotron-btns .btn-default {
+    background: rgba(11, 18, 30, 0.8) !important;
+    color: #dff8ff !important;
+    border: 1px solid rgba(0, 229, 255, 0.25) !important;
 }
 
 .hero-glow {
