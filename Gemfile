@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.3.3'
-gem 'bundler', '~> 2.5.15'
+gem 'bundler', '~> 2.7.2'
 gem 'faraday-retry'
 gem 'backports', '~> 3.25.0'
 gem 'kramdown'
@@ -38,6 +38,6 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+# gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
 # gem "ffi", "~> 1.16.3"
