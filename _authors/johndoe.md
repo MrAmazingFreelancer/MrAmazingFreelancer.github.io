@@ -1,31 +1,21 @@
 ---
-name: John Doe
-username: johndoe
-bio: "Hi I a John, a Web Developer and Designer."
-site: http://johndoe.com
+name: Peter
+username: MrAmazing
+bio: "Im a Web Developer and Designer."
+site: https://7ink.com.au
 avatar: johndoe.png
-email: mail@johndoe.com
+email: 7InkCo@7ink.com.au
 social:
     - title: "github"
-      url: "https://github.com/johndoe"
+      url: "https://github.com/"
     - title: "linkedin"
-      url: "https://www.linkedin.com/in/johndoe"
+      url: "https://www.linkedin.com/"
     - title: "youtube"
-      url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
-    - title: "facebook"
-      url: "https://www.facebook.com/johndoe"
+      url: "https://www.youtube.com/"
     - title: "twitter"
-      url: "https://www.twitter.com/johndoe"
-    - title: "behance"
-      url: "https://behance.com/johndoe"
+      url: "https://www.twitter.com/"
     - title: "instagram"
-      url: "https://instagram.com/johndoe"
-    - title: "medium"
-      url: "https://medium.com/johndoe"
+      url: "https://instagram.com/"
     - title: "telegram"
-      url: "https://telegram.com/johndoe"
-    - title: "dribbble"
-      url: "https://dribbble.com/johndoe"
-    - title: "flickr"
-      url: "https://flickr.com/johndoe"
+      url: "https://telegram.com/"
 ---
