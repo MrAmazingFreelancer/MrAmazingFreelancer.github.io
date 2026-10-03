@@ -7,15 +7,15 @@ avatar: johndoe.png
 email: 7InkCo@7ink.com.au
 social:
     - title: "github"
-      url: "https://github.com/"
+      url: "https://github.com/MrAmazingFreelancer"
     - title: "linkedin"
-      url: "https://www.linkedin.com/"
+      url: "https://www.linkedin.com/in/mramezing/"
     - title: "youtube"
-      url: "https://www.youtube.com/"
+      url: "https://www.youtube.com/@MrAmazing"
     - title: "twitter"
-      url: "https://www.twitter.com/"
+      url: "https://www.twitter.com/MrAmazing"
     - title: "instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/7inkcreations/"
     - title: "telegram"
-      url: "https://telegram.com/"
+      url: "https://telegram.me/MrAmazingFreelancer"
 ---
